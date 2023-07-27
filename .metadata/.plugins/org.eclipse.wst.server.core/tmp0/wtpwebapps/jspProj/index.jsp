@@ -15,12 +15,13 @@
 <a href="basic/05_config.jsp">05</a>
 <a href="basic/06_pageContext.jsp">06</a>
 <a href="basic/369.jsp">369</a>
-<<h2>execption</h2>
+<h2>execption</h2>
 <a href="err/aaa.jsp">try~catch</a>
 <a href="err/bbb.jsp">errorPage</a>
 <a href="err/ccc.jsp">500</a>
 <a href="err/ddd.jsp">404</a>
 <a href="err/eee.jsp">type</a>
+<a href="request/numForm.jsp">numForm</a>
 
 
 </body>
