@@ -66,11 +66,7 @@
 		
 		</tr>
 		<%} %>
-		<tr>
-			<td colspan="2" align="right">
-				<input type="submit" value="입력버튼" />
-			</td>
-		</tr>
+	
 		
 		
 	</table>

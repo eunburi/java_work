@@ -28,7 +28,7 @@
 <form action="score.jsp" name="qwer">
 	<table border="">
 		<tr>
-			<td>계산하는 거</td>
+			<td>국영수점수</td>
 		</tr>
 		<tr>
 			<td colspan="5" align="right">
