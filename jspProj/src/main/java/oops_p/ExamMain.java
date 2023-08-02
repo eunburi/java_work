@@ -62,7 +62,7 @@ public class ExamMain {
 		//랭크뽑기
 		//web으로해서 클래스로 변환하는거 한번 해보기
 
-
+		
 		
 		
 
