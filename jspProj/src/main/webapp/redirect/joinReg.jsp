@@ -16,11 +16,10 @@
 	String jumin = request.getParameter("jumin");
 	String pname = request.getParameter("pname");
 	
-	int sv = jumin.charAt(7)-'0'-1;
+	int sv = jumin.charAt(7)-'0'-1; //'0'은 아스키코드 - 48
 	
 	
-	
-	
+	/* 주민 뒷자리 : 1234567 */
 	
 	
 	/*
@@ -64,24 +63,17 @@
 	
 	String birthStr = String.join("-", birth);
 	
-	
-	if( today.before(new SimpleDateFormat("yyyy-MM-dd").parse(birthStr))){
-		out.println("생일안지남<br/>");
-		sv = 2;
-	}else{
-		sv = 0;
+	String goUrl = "child";
+	if(sv >= 4){
+		goUrl = "foreign";
+	}else if( today.after(new SimpleDateFormat("yyyy-MM-dd").parse(birthStr))){
+		
+		goUrl = "adult";
 	}
-	out.println(today+"<br/>");
-	
-	out.println(birthStr);
-	out.println(pname+"<br/>");
-	
-	
-	String [] arr = "adult,child,foreign,foreign".split(",");
-	String goUrl = arr[sv/2];
 	out.println(goUrl);
 	String ppname = URLEncoder.encode(pname,"UTF-8");
-	//response.sendRedirect(goUrl+".jsp?ppname="+ppname+"&year="+1111);
+	response.sendRedirect(goUrl+
+			".jsp?ppname="+ppname+"&year="+birth[0]+"&month="+birth[1]+"&day="+birth[2]);
 %>
 </body>
 </html>
