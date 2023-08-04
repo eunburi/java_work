@@ -62,7 +62,12 @@ public class ExamMain {
 		//랭크뽑기
 		//web으로해서 클래스로 변환하는거 한번 해보기
 
-		
+		//랭크
+		for(Exam ran : arr) {  //배열 arr에 있는 Exam 객체
+			//Exam 클래스가 'rankCalc'메서드를 가지고 있음
+			ran.rankCalc(arr);  //rankCalc 메서드를 호출
+			System.out.println(ran);  //출력
+		}
 		
 		
 

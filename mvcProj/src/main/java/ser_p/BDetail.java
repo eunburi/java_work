@@ -13,6 +13,8 @@ public class BDetail implements BoardService{
 		System.out.println("BDetail.execute() 실행");
 		
 		int id = Integer.parseInt(request.getParameter("id"));
+		new BoardDAO().addCount(id);
+		
 		//System.out.println(new BoardDAO().detail(id)); 콘솔에 찍힘
 		request.setAttribute("mainData",new BoardDAO().detail(id));
 	}
