@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>강사 jspProj 입니다.</title>
+<title>jspProj 입니다.</title>
 </head>
 <body>
-<h1>강사 jspProj 입니다.</h1>
+<h1>jspProj 입니다.</h1>
 <h2>basic</h2>
 <a href="basic/First">서블릿진입</a>
 <a href="basic/03_third.jsp">03_third</a>
@@ -28,5 +28,12 @@
 <a href="forward/a.jsp?nick=ccc">forward</a>
 <a href="include/a.jsp?nick=ccc">include</a>
 <a href="redirect/joinForm.jsp">joinForm</a>
+<h2>cookie</h2>
+<a href="cookie/make.jsp">make</a>
+<a href="cookie/view.jsp">view</a>
+<a href="cookie/modify.jsp">modify</a>
+<a href="cookie/delete.jsp">delete</a>
+<a href="cookie/logMain.jsp">로그인메인</a>
+<a href="cookie/qlogMain.jsp">Quiz 로그인메인</a>
 </body>
 </html>

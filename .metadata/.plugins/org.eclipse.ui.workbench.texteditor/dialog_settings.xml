@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=""/>
+		<item key="selection" value="file"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="file"/>
+			<item value="수수"/>
+			<item value="수"/>
+			<item value="new file"/>
+			<item value="jsp"/>
+			<item value="getup"/>
 			<item value="regd"/>
 			<item value="BD"/>
 			<item value="detail"/>
@@ -17,12 +23,6 @@
 			<item value="가가"/>
 			<item value="b"/>
 			<item value="rank"/>
-			<item value="grade"/>
-			<item value="to"/>
-			<item value="."/>
-			<item value="calc"/>
-			<item value="toto"/>
-			<item value="입력"/>
 		</list>
 		<list key="replacehistory">
 		</list>
